@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>JavaScript</title>
+	    <meta name="description" content="esta es una pagina de javaScript">
+	    <meta name="keywords" content="HTML, Javascript, Internet">
+	    <meta name="author" content="Juan Perez">
+  	</head>
+<body>
+	<script type="text/javascript">
+		var contador=0;
+		function incrementar()
+		{
+			contador++;
+			alert('El contador vale: '+contador);
+		}
+	</script>
+
+<form action="registro.php" method="post">
+	
+	<input type="button" onclick="incrementar()" value="Incrementar Contador">
+</form>
+
+</body>
+</html>

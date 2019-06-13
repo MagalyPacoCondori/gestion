@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>JavaScript</title>
+	    <meta name="description" content="esta es una pagina de javaScript">
+	    <meta name="keywords" content="HTML, Javascript, Internet">
+	    <meta name="author" content="Juan Perez">
+  	</head>
+<body>
+	<script type="text/javascript">
+		function mostrar()
+		{
+			var nom=document.getElementById('nombre').value;
+			var ed=document.getElementById('edad').value;
+			alert('hola : '+nom+ ' tienes edad '+ed+' anios');
+		}
+	</script>
+
+<form >
+	Ingrese su nombre
+	<input type="text" id="nombre">
+	Ingrese su edad
+	<input type="text" id="edad">
+	<input type="button" value="Confirmar" onclick="mostrar()">
+</form>
+
+</body>
+</html>
